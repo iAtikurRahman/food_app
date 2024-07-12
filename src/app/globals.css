@@ -1,0 +1,23 @@
+.input-wrapper{
+    margin: 10px;
+}
+
+.input-field{
+    width: 300px;
+    height: 30px;
+}
+.button{
+    width: 300px;
+    height: 30px;
+}
+.botton-link{
+    border: 0px;
+    cursor: pointer;
+    color: blue;
+    size: 14px;
+    padding: 10px;
+    background-color: transparent;
+}
+.container{
+    text-align: center;
+}

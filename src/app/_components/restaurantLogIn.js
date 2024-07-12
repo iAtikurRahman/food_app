@@ -1,15 +1,15 @@
 const RestaurantLogIn = ()=>{
     return (
         <>
-        <h3>Login Here Bro</h3>
-        <div>
-            <input type="email" placeholder="Inter your email" />
+        <h3>Login Here</h3>
+        <div className="input-wrapper">
+            email:<input type="email" placeholder="Inter your email" className="input-field" />
+        </div>
+        <div className="input-wrapper">
+            pass:<input type="password" placeholder="Inter your pass" className="input-field" />
         </div>
         <div>
-            <input type="password" placeholder="Inter your pass" />
-        </div>
-        <div>
-            <button>submit</button>
+            <button className="button">Login</button>
         </div>
         </>
     )
