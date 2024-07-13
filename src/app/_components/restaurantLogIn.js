@@ -1,7 +1,7 @@
 const RestaurantLogIn = ()=>{
     return (
         <>
-        <h3>Login Here</h3>
+        <h3>Login Page</h3>
         <div className="input-wrapper">
             email:<input type="email" placeholder="Inter your email" className="input-field" />
         </div>
