@@ -1,3 +1,1 @@
-const dataBaseConnetionStr = "mongodb://localhost:27017/food_app";
-
-export default dataBaseConnetionStr;
+export const dataBaseConnetionStr = process.env.MONGO_URI;

@@ -3,10 +3,10 @@ const RestaurantLogIn = ()=>{
         <>
         <h3>Login Page</h3>
         <div className="input-wrapper">
-            email:<input type="email" placeholder="Inter your email" className="input-field" />
+            <input type="email" placeholder="Inter your email" className="input-field" />
         </div>
         <div className="input-wrapper">
-            pass:<input type="password" placeholder="Inter your pass" className="input-field" />
+            <input type="password" placeholder="Inter your pass" className="input-field" />
         </div>
         <div>
             <button className="button">Login</button>

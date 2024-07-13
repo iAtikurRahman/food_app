@@ -1,9 +1,13 @@
+// lib/restaurantModel.js
 import mongoose from "mongoose";
-import { type } from "os";
 
 const restaurantModel = new mongoose.Schema({
-    gmail : {type:String,require:true},
-    password : {type:String,require:true}
-})
+    gmail: { type: String, required: true },
+    password: { type: String, required: true },
+    name: { type: String, required: true },
+    address: { type: String, required: false },
+    mobile: { type: Number, required: true },
 
-export const restauranSchema = mongoose.model.restaurant || mongoose.model("restaurant",restaurantModel);
+});
+
+export const restaurantSchema = mongoose.models.restaurant || mongoose.model("restaurant", restaurantModel);
